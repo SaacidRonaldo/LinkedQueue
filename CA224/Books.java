@@ -15,13 +15,13 @@ public class Books {
         System.out.println("Enter the Year : ");
         year = input.nextLine();
 
+        System.out.println("---------------------------------------");
+
+        System.out.println("the Title is : " + title);
+        System.out.println("the Auther is : " + auther);
+        System.out.println("The Year is : " + year);
 
     }
 
 
-    public void display(){
-        System.out.println(title);
-        System.out.println(auther);
-        System.out.println(year);
-    }
 }
