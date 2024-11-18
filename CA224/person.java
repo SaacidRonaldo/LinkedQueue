@@ -9,7 +9,8 @@ public class person {
     //constructors
 
     person(){
-        name = "Abdullahi Hussein Abdikariim";
+        name = "1.The Name is :" + "Abdullahi Hussein Abdikariim";
+        System.out.println("---------------exchange_Name----------------------");
     }
 
     person(String Name){
@@ -19,7 +20,7 @@ public class person {
     // methods
 
     void print(){
-        System.out.println("Name is : " + name);
+        System.out.println("The Name is : "+ name);
     }
 
     public String getName() {
